@@ -1,5 +1,7 @@
 %h1= @pin.title
 %h2= @pin.desc
+Created By:
+%p= @pin.user.email
 
 =link_to 'Main Page', root_path
 = link_to "Edit", edit_pin_path
