@@ -1,3 +1,4 @@
 
 - @pins.each do |i|
+    = link_to (image_tag i.image.url(:medium)), i
     %h2= link_to i.title, i
